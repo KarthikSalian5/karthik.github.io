@@ -71,23 +71,39 @@
         </section>
 
     <section class="bg-teal-300">
-         <table>
-  <tr>
-    <th>table heading 1</th>
-    <th>table heading 2</th>
-    <th>table heading 3</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-</table> 
+        <div class="table-container">
+            <h4 style="margin-bottom: 1rem;">Qualification</h4>
+            <table>
+                <tr>
+                    <th>SI.no.</th>
+                    <th>Exams</th>
+                    <th>Board/University</th>
+                    <th>Year</th>
+                    <th>CGPA/Percentage</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>B.tech</td>
+                    <td>Nitte University</td>
+                    <td>2023</td>
+                    <td>-.--</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>PUC</td>
+                    <td>Karnataka State</td>
+                    <td>2022</td>
+                    <td>--.--</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>SSLC</td>
+                    <td>Karnataka State</td>
+                    <td>2020</td>
+                    <td>--.--</td>
+                </tr>
+            </table>
+        </div>
 
 </section>
 
@@ -98,16 +114,12 @@
 </body>
 
 <section>
-     <form action="action_page.php" method="post" class="flex flex-col gap-4 text-white w-full">
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <input type="email" name="email" placeholder="example@mail.com">
+        <textarea name="message" rows="5" placeholder="write something..."></textarea>
 
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit" class="login-button grow">Login</button>
-
-</form> 
+        <button>Submit</button>
+    </div>
 </section>
 </html>
